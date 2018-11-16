@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">IntelExpense</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="txtTotalExpenses">Total Expenses</string>
+    <string name="txtRemainingBalance">Remaining Balance</string>
+    <string name="txtSavingsAmount">SavingsAmount</string>
+    <string name="txtExpenseCategories">Expense Categories</string>
+    <string name="txtOverview">Overview</string>
 </resources>
