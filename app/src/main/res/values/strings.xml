@@ -4,7 +4,23 @@
     <string name="navigation_drawer_close">Close Navigation Drawer</string>
     <string name="txtTotalExpenses">Total Expenses</string>
     <string name="txtRemainingBalance">Remaining Balance</string>
-    <string name="txtSavingsAmount">SavingsAmount</string>
+    <string name="txtSavingsAmount">Savings Amount</string>
     <string name="txtExpenseCategories">Expense Categories</string>
     <string name="txtOverview">Overview</string>
+    <string name="txtEnterExpense">Enter an Expense</string>
+    <string name="txtHintExpDesc">Enter Item Description</string>
+    <string name="txtAmt">Enter Expense Amount</string>
+    <string-array name="expCategoriesArray">
+        <item>Food</item>
+        <item>Transportation</item>
+        <item>Utilities</item>
+        <item>Grocery</item>
+        <item>Insurance</item>
+        <item>Gas</item>
+        <item>Clothing</item>
+        <item>Entertainment</item>
+    </string-array>
+    <string name="txtClear">Clear</string>
+    <string name="txtSave">Save</string>
+    <string name="txtRecentTxns">Recent Transactions</string>
 </resources>
