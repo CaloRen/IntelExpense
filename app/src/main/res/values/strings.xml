@@ -6,7 +6,8 @@
     <string name="txtRemainingBalance">Remaining Balance</string>
     <string name="txtSavingsAmount">Savings Amount</string>
     <string name="txtExpenseCategories">Expense Categories</string>
-    <string name="txtOverview">Overview</string>
+    <string name="txtOverview">OVERVIEW</string>
+    <string name="txtChooseCategory">Choose Category</string>
     <string name="txtEnterExpense">Enter an Expense</string>
     <string name="txtHintExpDesc">Enter Item Description</string>
     <string name="txtAmt">Enter Expense Amount</string>
@@ -23,4 +24,21 @@
     <string name="txtClear">Clear</string>
     <string name="txtSave">Save</string>
     <string name="txtRecentTxns">Recent Transactions</string>
+    <string name="txtCategory">Category</string>
+    <string name="txtCurrentMonthSummary">CURRENT MONTH\'S SUMMARY</string>
+    <string name="txtClothing">Clothing</string>
+    <string name="txtEntertainment">Entertainment</string>
+    <string name="txtFood">Food</string>
+    <string name="txtGas">Gas</string>
+    <string name="txtGrocery">Grocery</string>
+    <string name="txtInsurance">Insurance</string>
+    <string name="txtTransportation">Transportation</string>
+    <string name="txtUtilities">Utilities</string>
+    <string name="txtAmount">Amount</string>
+    <string name="txtGoalsOverview">SAVINGS AND GOALS OVERVIEW</string>
+    <string name="txtRemSavingsAmt">Remaining Savings Amount:</string>
+    <string name="txtGoalDescription">Enter Goal Description</string>
+    <string name="txtGoalAmt">Enter Goal Amount</string>
+    <string name="txtTargetDate">Target Date:</string>
+    <string name="txtDate">Date</string>
 </resources>
