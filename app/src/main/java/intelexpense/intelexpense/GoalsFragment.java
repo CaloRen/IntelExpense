@@ -19,11 +19,14 @@ import android.widget.Toast;
 import com.getbase.floatingactionbutton.FloatingActionButton;
 
 import java.text.DateFormat;
+import java.text.NumberFormat;
 import java.util.Calendar;
 
 public class GoalsFragment extends Fragment implements DatePickerDialog.OnDateSetListener {
 
     DatabaseHelper dbh;
+    NumberFormat nf = NumberFormat.getCurrencyInstance();
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -46,6 +49,10 @@ public class GoalsFragment extends Fragment implements DatePickerDialog.OnDateSe
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+        GlobalVariables gv = new GlobalVariables();
+        TextView txtRemSavingsAmt = getView().findViewById(R.id.txtRemSavingsAmt);
+        txtRemSavingsAmt.setText(String.valueOf(nf.format(gv.getRemSavAmt())));
 
         FloatingActionButton fab2 = getView().findViewById(R.id.fab_action2);
 
